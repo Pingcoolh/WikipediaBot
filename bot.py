@@ -23,11 +23,6 @@ async def ping():
 @client.command()
 async def wikipedia(*name):
 
-
-def search(search):
-    res = requests.get("https://en.wikipedia.org/wiki/Special:Sea
-    
-
 @client.event
 async def on_ready():
     print('Logged in as: ' + client.user.name)
